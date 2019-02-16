@@ -8,7 +8,7 @@
     </head>
 
     <body>
-
+    <div id="container">
     <!-- cabecera de la página -->    
         <div id="cabecera_izq">
             <header>
@@ -43,12 +43,9 @@
 
     <!-- Gif y formulario validación del usuario -->
 
-        <div id="gif_credenciales">
-            <img src="img/gif_usuario.gif" alt=""/>
-        </div>
-
+        
         <div id="formulario_credenciales">
-            <FORM name=form action="https://www.w3schools.com/html/html_forms.asp">
+            <form name=form action="https://www.w3schools.com/html/html_forms.asp">
                 <table>
                 <caption>Credenciales del empleado:</caption>
                     <tr><th>
@@ -58,8 +55,12 @@
                         <INPUT onclick=go() type=button value=Acceder>
                     </th></tr>
                 </table>
-            </FORM>
+            </form>
         </div>
-           
+
+        <div id="gif_credenciales">
+                <img src="img/gif_usuario.gif" alt=""/>
+        </div>
+    </div>      
     </body>
 </html>
