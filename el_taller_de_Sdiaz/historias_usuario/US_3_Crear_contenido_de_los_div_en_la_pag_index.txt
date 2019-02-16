@@ -1,0 +1,8 @@
+Modificación del HTML5 de la página index.
+
+En esta historia de usuario crearemos el contenido de los div de la página index
+
+   1- Una cabecera
+   2- Dos botones para enlazar a otras páginas (cliente y empleado)
+   3- Un apartado de redes sociales
+   4- Un píe de página con el logo del taller y un Copyright.
