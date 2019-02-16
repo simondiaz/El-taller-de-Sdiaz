@@ -1,0 +1,17 @@
+Creación del estilo para página index.
+
+En esta historia de usuario crearemos los estilos para el contenido de los div de la página index
+
+   1- Una cabecera
+   2- Dos botones para enlazar a otras páginas (cliente y empleado)
+   3- Un apartado de redes sociales
+   4- Un píe de página con el logo del taller y un Copyright.
+
+Se realizaron las siguientes modificaciones en el grid, (no quedaba bien después de aplicar los estilos).
+
+   1- Eliminación des espacio entre la cabecera y los botone. Menos en el modo móvil
+   3- Se amplian los a una columna los botones en el mododo tableta.
+   4- Se elimina la barra de redes sociales, la cual desaparece y se ponen en el medio del logo y del copy.
+
+
+Adjunto actulización del grid
