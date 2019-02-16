@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo.css" type="text/css" media="screen"/>
+        <title>El taller de Sdiaz</title>
+    </head>
+
+    <body>
+
+    <!-- cabecera de la página -->    
+        <div id="cabecera_izq">
+            <header>
+                <p></p>
+            </header>        
+        </div>
+
+        <div id="cabecera">
+           <header>
+                <h1>Talleres Sdiaz</h1>
+            </header>        
+        </div>
+
+        <div id="cabecera_der">
+            <header>
+                <p></p>
+            </header>        
+        </div>  
+
+    <!-- control usuario en java -->  
+
+        <SCRIPT  language=JavaScript> 
+                function go(){
+                if (document.form.password.value=='abc123.' && document.form.login.value=='sdiaz'){ 
+                document.form.submit(); 
+                } 
+                else{ 
+                alert("Las credenciales no son correctas"); 
+                } 
+                } 
+        </SCRIPT>
+
+    <!-- Gif y formulario validación del usuario -->
+
+        <div id="gif_credenciales">
+            <img src="img/gif_usuario.gif" alt=""/>
+        </div>
+
+        <div id="formulario_credenciales">
+            <FORM name=form action="https://www.w3schools.com/html/html_forms.asp">
+                <table>
+                <caption>Credenciales del empleado:</caption>
+                    <tr><th>
+                        <P><img src="img/icono_mecanico.ico">Usuario:</br><INPUT type=text name=login> </br>
+                        <P><img src="img/icono_contrasena.ico">Contraseña:</br><INPUT type=password name=password> </br>
+                        </br></br></br>
+                        <INPUT onclick=go() type=button value=Acceder>
+                    </th></tr>
+                </table>
+            </FORM>
+        </div>
+           
+    </body>
+</html>
