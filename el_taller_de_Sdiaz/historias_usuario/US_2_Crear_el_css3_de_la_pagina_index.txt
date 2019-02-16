@@ -1,0 +1,10 @@
+Crear el css3 de la página index.
+
+En esta historia de usuario crearemos la distribución de la página de inicio en  css3 para la web del taller de Simón Díaz. Utilizaremos grid para la maquetación.
+
+La página tiene que tener los siguientes apartados:
+
+   1- Una cabecera
+   2- Dos botones para enlazar a otras páginas (cliente y empleado)
+   3- Un apartado de redes sociales
+   4- Un píe de página con el logo del taller y un copy
