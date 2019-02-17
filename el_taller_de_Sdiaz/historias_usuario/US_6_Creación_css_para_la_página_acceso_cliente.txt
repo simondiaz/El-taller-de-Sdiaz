@@ -1,0 +1,7 @@
+En esta historia de usuario, creamos el estilo para la página e acceso del empleado
+
+   1- Cabecera
+   3- Gif animación
+   4- formulario con control de usuario y contraseña
+	Usuario: sdiaz
+	contraseña: abc123.
