@@ -1,0 +1,10 @@
+US_8 - Creación contenido del html para la página cliente
+
+En esta historia de usuario, creamos el contendido del html para la página cliente
+
+   1- Cabecera
+   2- Nuestras reparaciones
+   4- ejemplo reparaciones
+   5- video gtmotive
+   6- como llegar google maps
+   7- foto del taller
