@@ -1,0 +1,10 @@
+US_5 - Creación html página acceso empleado
+
+En esta historia de usuario, creamos el html con un formulario de acceso a la parte privada de la página.
+
+   1- Cabecera
+   3- Gif animación
+   4- formulario con control de usuario y contraseña
+	Usuario: sdiaz
+	contraseña: abc123.
+   5- Toda la página con grid

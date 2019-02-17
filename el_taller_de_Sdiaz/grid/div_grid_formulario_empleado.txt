@@ -1,0 +1,29 @@
+
+
+    <div id="container">
+
+    <!-- cabecera de la página -->  
+  
+        <div id="cabecera_izq">
+       
+        </div>
+
+        <div id="cabecera">
+       
+        </div>
+
+        <div id="cabecera_der">
+      
+        </div>  
+
+ 
+
+        
+        <div id="formulario_credenciales">
+
+        </div>
+
+        <div id="gif_credenciales">
+              
+        </div>
+    </div>      
