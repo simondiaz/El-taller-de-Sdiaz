@@ -1,0 +1,67 @@
+<div id="container">
+    <!-- cabecera de la página -->    
+        
+	<div id="cabecera_izq">
+                
+        </div>
+
+        <div id="cabecera">
+                  
+        </div>
+
+        <div id="cabecera_der">
+                      
+        </div>  
+    
+    <!-- Nuestras reparaciones y video gtmotive -->
+    
+        <div id="nav_cliente_izq">
+            
+        </div>
+
+        <div id="nav_cliente">
+            
+        </div>
+
+        <div id="nav_cliente_der">
+           
+        </div>
+
+    <!-- Nuestras reparaciones y video gtmotive -->
+
+        <div id="reparaciones_izq">
+            
+        </div>  
+
+        <div id="reparaciones">
+            
+            
+        </div>
+
+        <div id="video_gtmotive">
+                           
+        </div>
+
+        <div id="reparaciones_der">
+           
+        </div> 
+
+    <!-- Quienes somos -->    
+
+    <div id="donde_estamos_izq">
+         
+    </div>
+
+        <div id="donde_estamos">
+
+           
+        </div>
+
+        <div id="foto_taller">
+            
+        </div>
+
+        <div id="donde_estamos_der">
+            
+        </div>      
+    </div>  
