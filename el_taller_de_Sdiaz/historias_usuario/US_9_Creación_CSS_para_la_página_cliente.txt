@@ -2,7 +2,7 @@ En esta historia de usuario, creamos el estilo CSS para la página cliente
 
    1- Cabecera
    2- Nuestras reparaciones
-   4- ejemplo reparaciones
-   5- video gtmotive
-   6- como llegar google maps
-   7- foto del taller
+   4- Ejemplo reparaciones
+   5- Vídeo gtmotive
+   6- Cómo llegar google maps
+   7- Foto del taller

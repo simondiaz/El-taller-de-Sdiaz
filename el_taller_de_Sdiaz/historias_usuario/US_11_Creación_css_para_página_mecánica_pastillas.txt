@@ -1,0 +1,7 @@
+En esta historia de usuario, creamos el css para la página cliente-frenos
+
+   1- Cabecera
+   2- Menú mecánica
+   3- Menú reparaciones mecánica
+   4- Foto pastillas
+   5- Tabla ofertas
