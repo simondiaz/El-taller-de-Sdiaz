@@ -235,7 +235,29 @@
     padding: 15px; 
     /*border: 1px solid red; */   
     }
-
+#boton_hablar_cliente{
+    grid-column: 1 / 13;   
+    padding: 15px; 
+    /*border: 1px solid red; */   
+    }
+        
+#boton_fichar{
+    grid-column: 1 / 13;   
+    padding: 15px; 
+    /*border: 1px solid red; */   
+    }
+        
+#boton_presupuesto{
+    grid-column: 1 / 13;   
+    padding: 15px; 
+    /*border: 1px solid red; */   
+            }
+        
+#boton_manuales{
+    grid-column: 1 / 13;   
+    padding: 15px; 
+    /*border: 1px solid red; */   
+    }
 
 
 /* grid Tablet*/
@@ -462,7 +484,29 @@
     /*border: 1px solid red; */   
     }
     
-   
+#boton_hablar_cliente{
+    grid-column: 3 / 7;   
+    padding: 15px; 
+    /*border: 1px solid red; */   
+        }
+    
+#boton_fichar{
+    grid-column: 7 / 11;   
+    padding: 15px; 
+    /*border: 1px solid red; */   
+    }
+    
+#boton_presupuesto{
+    grid-column: 3 / 7;   
+    padding: 15px; 
+    /*border: 1px solid red; */   
+        }
+    
+#boton_manuales{
+    grid-column: 7 / 11;   
+    padding: 15px; 
+    /*border: 1px solid red; */   
+    }  
 
 
 }
@@ -688,25 +732,25 @@
 /* botones empleado*/
 
 #boton_hablar_cliente{
-    grid-column: 4 / 7;   
+    grid-column: 1 / 4;   
     padding: 15px; 
     /*border: 1px solid red; */   
     }
 
 #boton_fichar{
-    grid-column: 7 / 10;   
-    padding: 15px; 
-    /*border: 1px solid red; */   
-    }
-
-#boton_presupuesto{
     grid-column: 4 / 7;   
     padding: 15px; 
     /*border: 1px solid red; */   
     }
 
-#boton_manuales{
+#boton_presupuesto{
     grid-column: 7 / 10;   
+    padding: 15px; 
+    /*border: 1px solid red; */   
+    }
+
+#boton_manuales{
+    grid-column: 10 / 13;   
     padding: 15px; 
     /*border: 1px solid red; */   
     }
@@ -961,3 +1005,41 @@ ul{
     background-color: #EF8B14;
     color: #EF8B14;
     }
+
+
+#boton_hablar_cliente {
+    
+    width: 100px;
+    height: 100px;
+    position: relative;    
+    -webkit-animation-name: cambio_cliente; 
+    -webkit-animation-duration: 4s; 
+    -webkit-animation-delay: 0s; 
+    animation-name: cambio_cliente;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    }
+
+    /* Safari 4.0 - 8.0 */
+@-webkit-keyframes cambio_cliente {
+    0%   {left:0px; top:0px;}
+    25%  {left:30px; top:30px;}
+    50%  {left:30px; top:30px;}
+    75%  {left:30px; top:30px;}
+    100% {left:0px; top:0px;}
+  }
+  
+  /* Standard syntax */
+@keyframes cambio_cliente {
+    0%   {left:0px; top:0px;}
+    25%  {left:30px; top:30px;}
+    50%  {left:30px; top:30px;}
+    75%  {left:30px; top:30px;}
+    100% {left:0px; top:0px;}
+  }
+
+
+
+
+
+

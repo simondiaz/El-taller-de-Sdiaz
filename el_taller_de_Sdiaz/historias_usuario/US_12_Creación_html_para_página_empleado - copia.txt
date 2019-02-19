@@ -1,0 +1,7 @@
+En esta historia de usuario, creamos el html para la página empleado
+
+   1- Cabecera
+   2- botónn hablar con el cliente
+   3- botón fichar
+   4- botón presupuestos
+   5- botón manuales
