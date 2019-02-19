@@ -1,0 +1,37 @@
+<body>
+                
+    <div id="container">
+    <!-- cabecera de la página -->    
+        <div id="cabecera_izq">
+                
+        </div>
+
+        <div id="cabecera">
+                
+        </div>
+
+        <div id="cabecera_der">
+                      
+        </div>  
+    
+    <!-- botones -->
+    
+        <div id="boton_hablar_cliente">
+            
+        </div>
+
+        <div id="boton_fichar">
+            
+        </div>
+
+        <div id="boton_presupuesto">
+            
+        </div>    
+
+        <div id="boton_manuales">
+            
+        </div>  
+
+        
+    </div>      
+    </body>
