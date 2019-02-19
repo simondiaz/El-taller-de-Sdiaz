@@ -219,24 +219,22 @@
 /* grid menú cliente mecánica */
 
 #menu_mecanica{
-    grid-column: 1 / 3;   
+    grid-column: 1 / 13;   
     padding: 15px; 
     /*border: 1px solid red; */     
     }
-        
+       
+#tabla_precios_mecanica{
+    grid-column: 1 / 13;   
+    padding: 15px; 
+    /*border: 1px solid red; */    
+    }       
+
 #foto_mecanica{
-    grid-column: 3 / 8;   
+    grid-column: 1 / 13;   
     padding: 15px; 
     /*border: 1px solid red; */   
     }
-      
-#tabla_precios_mecanica{
-    grid-column: 8 / 12;   
-    padding: 15px; 
-    /*border: 1px solid red; */    
-    }
-
-
 
 
 
@@ -447,23 +445,24 @@
 /* grid menú cliente mecánica */
 
 #menu_mecanica{
-    grid-column: 1 / 3;   
+    grid-column: 1 / 5;   
     padding: 15px; 
     /*border: 1px solid red; */     
     }
-    
+
+#tabla_precios_mecanica{
+    grid-column: 5 / 13;   
+    padding: 15px; 
+    /*border: 1px solid red; */     
+    }
+     
 #foto_mecanica{
-    grid-column: 3 / 13;   
+    grid-column: 1 / 13;   
     padding: 15px; 
     /*border: 1px solid red; */   
     }
     
-#tabla_precios_mecanica{
-    grid-column: 3 / 13;   
-    padding: 15px; 
-    /*border: 1px solid red; */     
-    }
-        
+   
 
 
 }
@@ -860,8 +859,7 @@ iframe {
 #menu_mecanica {
         text-align: left;
         width: 100%;
-        height: 100%;
-        
+        height: 100%;        
         color: #C7C8C8;
         list-style:none;
         margin: 0;
@@ -875,11 +873,11 @@ iframe {
         {
         width: 100%;
         height: 100%;
-        padding: 10px 20px;
         display: inline-block;
         color: #C7C8C8;
         font-weight:bold;
         background: #EF8B14;
+        text-align: center;
         }
     
 #menu_mecanica li a:hover
@@ -889,6 +887,7 @@ iframe {
         background: #C7C8C8;
         color: #EF8B14;
         font-weight:bold;
+        text-align: center;
         }
 
 #foto_mecanica {
@@ -904,6 +903,7 @@ iframe {
 ul{
     list-style:none; 
     color: #EF8B14;
+    text-align: center;
     }
 
 #tabla_precios_mecanica_pastillas{
