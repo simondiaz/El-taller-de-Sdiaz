@@ -1,4 +1,4 @@
-En esta historia de usuario, creamos el contendido del html para la página cliente ofertas
+En esta historia de usuario, creamos el contendido del css para la página cliente ofertas
 
    1- Cabecera
    2- Menú mecánica

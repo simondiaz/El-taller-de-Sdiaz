@@ -259,6 +259,17 @@
     /*border: 1px solid red; */   
     }
 
+#ofertas{
+    grid-column: 1 / 13;   
+    padding: 15px; 
+    /*border: 1px solid red; */   
+    }
+        
+#foto_coche{
+    grid-column: 1 / 13;   
+    padding: 15px; 
+    /*border: 1px solid red; */   
+    }
 
 /* grid Tablet*/
 
@@ -508,6 +519,18 @@
     /*border: 1px solid red; */   
     }  
 
+#ofertas{
+    grid-column: 5 / 13;   
+    padding: 15px; 
+    /*border: 1px solid red; */   
+    }
+    
+#foto_coche{
+    grid-column: 1 / 13;   
+    padding: 15px; 
+    /*border: 1px solid red; */   
+    }
+
 
 }
 
@@ -754,6 +777,18 @@
     padding: 15px; 
     /*border: 1px solid red; */   
     }
+
+#ofertas{
+    grid-column: 3 / 8;   
+    padding: 15px; 
+    /*border: 1px solid red; */   
+    }
+
+#foto_coche{
+    grid-column: 8 / 12;   
+    padding: 15px; 
+    /*border: 1px solid red; */   
+        }
 
 }    
 
@@ -1037,6 +1072,19 @@ ul{
     75%  {left:30px; top:30px;}
     100% {left:0px; top:0px;}
   }
+
+#ofertas{
+    width: 100%;
+    height: 100%; 
+    color: #FAFAFA;
+    text-align: center;
+     
+    }
+    
+#foto_coche{
+    width: 100%;
+    height: 100%;   
+    }
 
 
 
