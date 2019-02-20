@@ -1,0 +1,7 @@
+En esta historia de usuario, creamos el contendido del html para la página cliente
+
+   1- Cabecera
+   2- Menú mecánica
+   3- Menú reparaciones mecánica
+   4- foto svg
+   5- texto
