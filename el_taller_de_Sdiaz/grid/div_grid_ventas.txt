@@ -1,0 +1,53 @@
+
+                
+    <div id="container">
+    <!-- cabecera de la página -->    
+        <div id="cabecera_izq">
+               
+        </div>
+
+        <div id="cabecera">
+           
+        </div>
+
+        <div id="cabecera_der">
+                   
+        </div>  
+    
+    <!-- Nuestras reparaciones y video gtmotive -->
+    
+        <div id="nav_cliente_izq">
+            <P>
+
+            </P>
+        </div>
+
+        <div id="nav_cliente">
+           
+        </div>
+
+        <div id="nav_cliente_der">
+            <P>
+
+            </P>
+        </div>
+
+    <!-- menú -->
+
+        <div id="menu_ventas">
+            
+        </div> 
+
+
+
+    <!-- Testo ventas -->    
+
+        <div id="ofertas">
+            
+        </div>
+     
+    <!-- foto -->
+
+    <div id="foto_coche">
+         
+    </div>  

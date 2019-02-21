@@ -223,6 +223,12 @@
     padding: 15px; 
     /*border: 1px solid red; */     
     }
+
+#menu_ventas{
+    grid-column: 1 / 13;   
+    padding: 15px; 
+    /*border: 1px solid red; */     
+        }
        
 #tabla_precios_mecanica{
     grid-column: 1 / 13;   
@@ -478,6 +484,12 @@
 /* grid menú cliente mecánica */
 
 #menu_mecanica{
+    grid-column: 1 / 5;   
+    padding: 15px; 
+    /*border: 1px solid red; */     
+    }
+
+#menu_ventas{
     grid-column: 1 / 5;   
     padding: 15px; 
     /*border: 1px solid red; */     
@@ -739,6 +751,12 @@
     padding: 15px; 
     /*border: 1px solid red; */ 
     }
+
+#menu_ventas{
+    grid-column: 1 / 3;   
+    padding: 15px; 
+    /*border: 1px solid red; */ 
+        }
 
 #foto_mecanica{
     grid-column: 8 / 13;   
@@ -1083,10 +1101,43 @@ ul{
     
 #foto_coche{
     width: 100%;
-    height: 100%;   
+    height: 100%;
+    opacity: 0.6;   
     }
 
-
+#menu_ventas {
+        text-align: left;
+        width: 100%;
+        height: 100%;        
+        color: #C7C8C8;
+        list-style:none;
+        margin: 0;
+        padding: 0;
+        opacity: 0.7;
+        overflow: auto;
+        font-weight:bold;
+        }                              
+        
+#menu_ventas li a 
+        {
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        color: #C7C8C8;
+        font-weight:bold;
+        background: #27AB23;
+        text-align: center;
+        }
+    
+#menu_ventas li a:hover
+        {
+        width: 100%;
+        height: 100%;
+        background: #C7C8C8;
+        color: #27AB23;
+        font-weight:bold;
+        text-align: center;
+        }
 
 
 
