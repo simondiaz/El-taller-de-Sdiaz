@@ -277,6 +277,33 @@
     /*border: 1px solid red; */   
     }
 
+
+/* nav empleado*/
+#nav_empleado{
+    grid-column: 1 / 13;   
+    padding: 15px; 
+    /*border: 1px solid red; */  
+    }
+
+#texto_presupuesto{
+    grid-column: 1 / 13;   
+    padding: 15px; 
+    /*border: 1px solid red; */  
+        }
+
+#preupuesto_foto{
+    grid-column: 1 / 13;   
+    padding: 15px; 
+    /*border: 1px solid red; */  
+    }
+
+#crear_presupuesto{
+    grid-column: 1 / 13;   
+    padding: 15px; 
+    /*border: 1px solid red; */  
+    }
+
+
 /* grid Tablet*/
 
 @media screen and (min-width: 600px) {
@@ -542,7 +569,25 @@
     padding: 15px; 
     /*border: 1px solid red; */   
     }
+/* nav empleado*/
+#nav_empleado{
+    grid-column: 1 / 13;   
+    padding: 15px; 
+    /*border: 1px solid red; */  
+    }
 
+#texto_presupuesto{
+    grid-column: 1 / 7;   
+    padding: 15px; 
+    /*border: 1px solid red; */  
+        }
+
+
+#crear_presupuesto{
+    grid-column: 7 / 13;   
+    padding: 15px; 
+    /*border: 1px solid red; */  
+    }
 
 }
 
@@ -807,8 +852,30 @@
     padding: 15px; 
     /*border: 1px solid red; */   
         }
+ 
+/* nav empleado*/
+#nav_empleado{
+    grid-column: 2 / 12;   
+    padding: 15px; 
+    /*border: 1px solid red; */  
+    }
 
-}    
+#texto_presupuesto{
+    grid-column: 2 / 7;   
+    padding: 15px; 
+    /*border: 1px solid red; */  
+        }
+
+
+#crear_presupuesto{
+    grid-column: 7 / 12;   
+    padding: 15px; 
+    /*border: 1px solid red; */  
+    }
+
+}
+
+
 
 
 
@@ -960,7 +1027,7 @@ iframe {
 #ventas{
     color: #818384;
     border: 10px solid #27AB23;
-    }
+    }                                                               
     
 #ventas:hover{
     background: #C7C8C8;
@@ -1096,7 +1163,6 @@ ul{
     height: 100%; 
     color: #FAFAFA;
     text-align: center;
-     
     }
     
 #foto_coche{
@@ -1139,6 +1205,68 @@ ul{
         text-align: center;
         }
 
+#chat_nav{
+    color: #FFFFFF;
+    border: 5px solid #6E6E6E;
+    }
+        
+#chat_nav:hover{
+    background: #FFFFFF;
+    color: #2E9AFE;
+    } 
+            
+#fichar_nav{
+    color: #FFFFFF;
+    border: 5px solid #6E6E6E;
+    }
+#fichar_nav:hover{
+    background: #FFFFFF;
+    color: #2E9AFE;
+    }
+           
+#manual_nav{
+    color: #FFFFFF;
+    border: 5px solid #6E6E6E;
+    }                                                               
+           
+#manual_nav:hover{
+    background: #FFFFFF;
+    color: #2E9AFE;
+    }
 
+#presupuesto_nav{
+    color: #FFFFFF;
+    border: 5px solid #6E6E6E;
+    }                                                               
+               
+#presupuesto_nav:hover{
+    background: #FFFFFF;
+    color: #2E9AFE;
+    }
+
+#barra_empleado{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #C7C8C8;                
+    border-spacing: 0px;
+    cursor: pointer;
+    opacity: 0.7;
+    }
+
+#texto_presupuesto{
+    width: 100%;
+    height: 100%; 
+    color: #FAFAFA;
+    text-align: center;
+    }
+
+#crear_presupuesto{
+    width: 100%;
+    height: 100%;
+    }
+
+
+    
 
 

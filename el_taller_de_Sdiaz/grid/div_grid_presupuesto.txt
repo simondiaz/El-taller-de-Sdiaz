@@ -1,0 +1,49 @@
+
+    <body>
+                
+    <div id="container">
+    <!-- cabecera de la página -->    
+        <div id="cabecera_izq">
+                <p></p>
+        </div>
+
+        <div id="cabecera">
+                  
+        </div>
+
+        <div id="cabecera_der">
+                     
+        </div>  
+    
+    <!-- Nuestras reparaciones y video gtmotive -->
+    
+        <div id="nav_cliente_izq">
+           
+        </div>
+
+        <div id="nav_empleado">
+            
+
+        <div id="nav_cliente_der">
+           
+        </div>
+
+    <!-- Texto prsupuesto -->    
+
+        <div id="texto_presupuesto">
+          
+
+        </div>
+
+        
+     
+    <!-- presupuesto -->
+        <div id="crear_presupuesto">
+
+            
+        </div>
+    
+    </div>    
+
+      
+    </body>

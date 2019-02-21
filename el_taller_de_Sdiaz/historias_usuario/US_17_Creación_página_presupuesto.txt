@@ -1,0 +1,6 @@
+En esta historia de usuario, creamos el contendido del html para la página cliente ofertas
+
+   1- Cabecera
+   2- Menú empleado
+   3- Texto
+   5- Presupuesto
