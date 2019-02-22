@@ -1,0 +1,53 @@
+    <body>
+                
+    <div id="container">
+    <!-- cabecera de la página -->    
+        <div id="cabecera_izq">
+                
+        </div>
+
+        <div id="cabecera">
+                   
+        </div>
+
+              
+        </div>  
+    
+    <!-- Texto manuales -->
+    
+        <div id="nav_empleado_izq">
+           
+        </div>
+
+        <div id="nav_empleado">
+           
+        </div>
+
+        <div id="nav_empleado_der">
+           
+        </div>
+
+        
+
+    <!-- Texto manual-->    
+
+        <div id="texto_manual">
+            
+
+        </div>
+
+        <!-- marcas -->
+
+        <div id="tabla_marcas">
+                
+                         
+            </div>
+
+        
+     
+    
+        
+
+      
+    </body>
+</html>

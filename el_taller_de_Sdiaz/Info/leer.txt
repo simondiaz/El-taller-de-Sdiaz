@@ -1,0 +1,1 @@
+Entrar en la carpeta archivos y descomprimir el archivo manual en esa misma ruta
