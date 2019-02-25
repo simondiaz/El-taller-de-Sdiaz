@@ -1,0 +1,7 @@
+En esta historia de usuario, creamos el contendido del html Y css para la página chat
+
+   1- Cabecera
+   2- Menú empleado
+   3- Texto
+   5- logo
+   6- formulario

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo.css" type="text/css" media="screen"/>
+        <title>El taller de Sdiaz</title>
+    </head>
+
+    <body>
+                
+    <div id="container">
+    <!-- cabecera de la página -->    
+        
+
+        <div id="cabecera">
+           <header>
+                <h1>Talleres Sdiaz</h1>
+            </header>        
+        </div>
+
+    
+    <!-- Nuestras reparaciones y video gtmotive -->
+    
+        
+
+        <div id="nav_empleado">
+            <table style="width:100%" id="barra_empleado">
+                <tr>
+                    <th id="chat_nav"><img src="img/llamar.ico">  Chat</th>
+                    <th id="fichar_nav"><img src="img/reloj.ico">  Fichar</th> 
+                    <th id="presupuesto_nav"><img src="img/presupuesto.ico">  Presupuesto</th>
+                    <th id="manual_nav"><img src="img/manual.ico">  Manuales</th>
+                </tr>
+            </table>
+        </div>
+
+       
+
+        
+
+    <!-- Texto chat -->    
+
+        <div id="texto_chat">
+            <h2><b>Hablar con el cliente</b></h2>
+            <p>
+                Recuerde que al final de la jornada debe informar al cliente en que punto se encuentra la reparción de su vehículo.
+                <br><br>
+                Cubra todos los campos del formularo y envíeselo al cliente. Si la finalización de la reparación está 
+                programada para el siguiente día laborable, indíquelo en el cuerpo del mensaje.  
+                <br><br>
+                Si los datos del vehículo o del cliente no están cargados en la BD, hable con su superior.
+            </p>            
+        </div>
+
+        <!-- imagen -->
+
+        <div id="foto_chat">
+            <br><br><br>
+            <img src="img/llamar.png"/>                          
+        </div>
+
+        <div id="formulario_chat"> 
+            <form id="formulario_chat_2">
+                <fieldset>
+                    <legend>Datos empleado</legend>
+                        id empleado <br>
+                        <input id="id_empleado"  type="text" name="id_empleado" list="id_cliente">
+                            <datalist id="id_cliente">
+                                <option label="1" value="1">
+                                <option label="2" value="2">
+                                <option label="3" value="3">
+                            </datalist>
+                        <br>
+                        Nombre empleado:<br>
+                        <input type="text" name="nombre_empleado" value=><br>
+
+                        Apellidos empleado:<br>
+                        <input type="text" name="apellidos_empleado" value=><br><br>
+
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Datos Cliente</legend>
+                        
+                        Matricula coche:<br>
+                        <input id="maticula"  type="text" name="matricula" list="matricula">
+                            <datalist id="matricula">
+                                <option label="7427BYF" value="7427BYF">
+                                <option label="9174JMX" value="9174JMX">
+                                <option label="9944HVV" value="9944HVV">
+                            </datalist>
+                            <br>
+                        
+                        Nombre cliente:<br>
+                        <input type="text" name="nombre_cliente" value=><br>
+
+                        Apellidos cliente:<br>
+                        <input type="text" name="apellidos_cliente" value=><br>
+
+                        Correo cliente:<br>
+                        <input type="email" name="correo_cliente" value=><br><br>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Mensaje</legend>
+                        Fecha:<br>
+                        <input max="2050-09-30" min="2014-09-15" name="date" type="date" /><br>
+                        Texto<br>
+                        <textarea id="cuerpo_mensaje" placeholder="Enviar correo al cliente..." name="comment"></textarea> 
+                        <br><br>
+                        <label for="imagen">Si lo deseas puedes adjuntar imágenes al mensaje</label><br>
+                        <br>
+                        <input name="file" type="file" size="2mb"><br>
+                        <input name="file" type="file" size="2mb"><br> 
+                        <input name="file" type="file" size="2mb"><br> 
+                        <input name="file" type="file" size="2mb"><br>                       
+                </fieldset>
+                <br>
+                <input class="botonAcceder" type="submit" id="boton" value="Enviar" />
+            </form>
+
+            
+        </div>               
+               
+        
+     
+    
+        
+
+        </div> 
+    </body>
+</html>

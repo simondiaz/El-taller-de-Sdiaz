@@ -1,0 +1,48 @@
+    <body>
+                
+    <div id="container">
+    <!-- cabecera de la página -->    
+        
+         
+
+        <div id="cabecera">
+                   
+        </div>
+
+              
+        
+    
+    <!-- menú empleado -->
+    
+        
+
+        <div id="nav_empleado">
+           
+        </div>
+
+        
+
+        
+
+    <!-- marcas-->    
+
+        <div id="marcas">
+            
+
+        </div>
+
+        <!-- modelos-->
+
+        <div id="modelos">
+                
+                         
+            </div>
+
+        
+     
+    
+        
+
+      
+    </body>
+</html>

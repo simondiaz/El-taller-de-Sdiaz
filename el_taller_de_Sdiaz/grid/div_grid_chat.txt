@@ -1,0 +1,48 @@
+<body>
+                
+    <div id="container">
+    <!-- cabecera de la página -->    
+        <div id="cabecera_izq">
+               
+        </div>
+
+        <div id="cabecera">
+                 
+        </div>
+
+        <div id="cabecera_der">
+                     
+        </div>  
+    
+    <!-- menú empleado -->
+    
+        
+
+        <div id="nav_empleado">
+            
+        </div>
+
+       
+
+        
+
+    <!-- Texto chat -->    
+
+        <div id="texto_chat">
+                       
+        </div>
+
+        <!-- imagen -->
+
+        <div id="foto_chat">
+                                  
+        </div>
+                
+               
+        
+     
+    
+        
+
+        </div> 
+    </body>
