@@ -1,4 +1,16 @@
+@font-face {
+    font-family: "Superexpanded";
+    src: url("archivos/Superexpanded.ttf");
+  }
 
+@font-face {
+    font-family: "cut_above";
+    src: url("archivos/Cut_Above_The_Rest.ttf");
+  }
+/*
+@import url("archivos/Cut_Above_The_Rest.ttf");
+@import url("archivos/Superexpanded.ttf");
+*/
 * {
     box-sizing: border-box;
     }
@@ -359,6 +371,12 @@
     /*border: 1px solid red; */  
     }
 
+#clio{
+    grid-column: 1 / 13;   
+    padding: 15px; 
+    /*border: 1px solid red;*/
+}
+
 
 /* grid Tablet*/
 
@@ -700,6 +718,12 @@
     padding: 15px; 
     /*border: 1px solid red; */  
     }
+
+#clio{
+    grid-column: 6 / 13;   
+    padding: 15px; 
+    /*border: 1px solid red;*/
+    }
 }
 
 
@@ -1040,6 +1064,12 @@
     /*border: 1px solid red; */  
     }
 
+#clio{
+    grid-column: 4 / 12;   
+    padding: 15px; 
+    /*border: 1px solid red;*/
+}
+
 }
 
 
@@ -1169,7 +1199,23 @@ iframe {
     opacity: 0.7;
     }
 
-  
+/* navegador ciente*/
+
+.enlace_mav_cliente{
+    color: #6E6E6E;
+    border: 5px solid #6E6E6E;
+    }
+
+.enlace_nav_cliente:hover{
+    background: #FFFFFF;
+    color: #2E9AFE;
+    }
+
+.enlace_mav_cliente:visited{
+    color: #6E6E6E;
+    border: 5px solid #6E6E6E;
+    }
+
 #mecanica{
     color: #6E6E6E;
     border: 5px solid #6E6E6E;
@@ -1183,10 +1229,13 @@ iframe {
 #carroceria{
     color: #6E6E6E;
     border: 5px solid #6E6E6E;
+    cursor: not-allowed;
     }
+
 #carroceria:hover{
     background: #FFFFFF;
     color: #2E9AFE;
+    cursor: not-allowed;
     }
    
 #ventas{
@@ -1225,7 +1274,7 @@ iframe {
         font-weight:bold;
         }                              
         
-#menu_mecanica li a 
+#menu_mecanica li a
         {
         width: 100%;
         height: 100%;
@@ -1235,8 +1284,12 @@ iframe {
         background: #C7C8C8;
         text-align: left;
         }
+
+ 
+
+
     
-#menu_mecanica li a:hover
+#menu_mecanica li a:hover 
         {
         width: 100%;
         height: 100%;
@@ -1324,6 +1377,7 @@ ul{
   }
 
 #ofertas{
+
     width: 100%;
     height: 100%; 
     color: #FAFAFA;
@@ -1665,17 +1719,15 @@ ul{
     background: #FFFFFF;
     color: #2E9AFE;
     }   
+
 /* los linck no quedan con el historial en azul */
 
 a:link{
     text-decoration:none;
     } 
     
-a:visited{
-    color: #FFFFFF;
-    border: 1px solid #6E6E6E; 
-    text-decoration: none;
-    }
+
+
     
 #giuleta:hover a:visited{
     background: #FFFFFF;
@@ -1705,10 +1757,95 @@ a:visited{
     height: 100%;
     color: #2E9AFE;
     text-align: center;
+    border: 5px solid #6E6E6E;
+    background-image: url("img/portada.jpg");   
     }
 
 #cuerpo_mensaje{
     width: 100%;
     height: 500%;
+    }
+
+/*galería*/
+
+#clio {
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
 }
 
+
+
+#clio ul {
+	display: flex;
+	padding: 0;
+	width: 400%;	
+	animation: cambio 20s infinite alternate linear;
+}
+
+#clio li {
+	width: 100%;
+	list-style: none;
+}
+
+#clio img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+
+#clio h4{
+    color: #F1EEF5;
+    text-align: center;
+    opacity: 0.6;
+    font-family: 'Superexpanded';
+    }
+
+
+.capitalLetter{
+   color: #2E9AFE;
+   font-size: 250%;
+    }
+
+#boton_fichar img{
+    cursor: not-allowed;
+    }
+
+#fichar_nav {
+    cursor: not-allowed;
+    }
+
+#texto_manual strong{
+    color: #F1EEF5;
+    text-align: center;
+    opacity: 0.6;
+    font-family: 'cut_above';
+    }
+
+table a:link{
+    text-decoration:none;
+    } 
+    
+table a:visited{
+    color: #FFFFFF;
+    border: 1px solid #6E6E6E; 
+    text-decoration: none;
+    }
+    
+table a:hover{
+    background: #FFFFFF;
+    color: #2E9AFE;
+    }
